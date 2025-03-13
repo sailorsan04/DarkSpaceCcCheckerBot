@@ -1,0 +1,18 @@
+services:
+       - type: web
+         name: sdm-checker-bot
+         runtime: php
+         env: php
+         buildCommand: composer install
+         startCommand: php -S 0.0.0.0:$PORT -t .
+         envVars:
+           - key: BOT_TOKEN
+             value: 7564080809:AAETz1D7IVBwrrI0a61ZJYYuHUPcnmA2y1c
+           - key: DB_HOST
+             value: your_db_host_here
+           - key: DB_USER
+             value: your_db_user_here
+           - key: DB_PASS
+             value: your_db_pass_here
+           - key: DB_NAME
+             value: your_db_name_here
