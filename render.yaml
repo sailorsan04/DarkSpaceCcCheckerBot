@@ -7,7 +7,7 @@ services:
          startCommand: php -S 0.0.0.0:$PORT -t .
          envVars:
            - key: BOT_TOKEN
-             value: 7564080809:AAETz1D7IVBwrrI0a61ZJYYuHUPcnmA2y1c
+             value: your_bot_token_here
            - key: DB_HOST
              value: your_db_host_here
            - key: DB_USER
